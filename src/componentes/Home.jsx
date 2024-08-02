@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div id='home' className='h-[100vh] flex justify-center'>
             <section className='  mt-[20px] md:mt-[50px] md:w-[1100px] flex flex-col-reverse md:flex-row md:justify-between justify-center items-center'>
-                <div className=' md:w-[550px] w-full md:p-0 px-10'>
+                <div className=' md:w-[550px] w-full md:p-0 px-8'>
                     <h1 className=' font-[800] text-[35px] ms:text-[38px] md:text-[60px]'>Hola, soy <span className='text-principal'>Marlon</span></h1>
                     <div className='  text-[17px] relative mt-[15px] h-[28px] md:h-[45px] overflow-hidden md:mt-[2px]'>
                         <div className=' ms:text-[18px] md:text-[30px] absolute animate-desplazamiento_movil md:animate-desplazamiento_destok'>
