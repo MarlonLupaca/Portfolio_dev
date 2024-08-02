@@ -12,7 +12,7 @@ export default {
         'custom-grey-rgba': 'rgba(255, 255, 255, 0.1)',
       },
       animation:{
-        desplazamiento: "desplazamiento 8s infinite"
+        desplazamiento: "desplazamiento 7s infinite"
       },
       keyframes:{
         

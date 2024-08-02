@@ -20,10 +20,12 @@ const Home = () => {
                             <i className="fa-brands fa-google-plus-g mr-2" ></i>
                             Gmail
                         </button>
-                        <button className='border border-gray-400 px-[20px] py-[5px] rounded-[8px] bg-custom-grey-rgba'>
-                            <i className="fa-brands fa-github mr-2"></i>
-                            GitHub
-                        </button>
+                        <a href="https://github.com/MarlonLupaca" target="_blank">
+                            <button className='border border-gray-400 px-[20px] py-[5px] rounded-[8px] bg-custom-grey-rgba'>
+                                <i className="fa-brands fa-github mr-2"></i>
+                                GitHub
+                            </button>
+                        </a>
                         <button className='border border-gray-400 px-[20px] py-[5px] rounded-[8px] bg-custom-grey-rgba'>
                             <i className="fa-brands fa-linkedin mr-2"></i>
                             LinkedIn
