@@ -3,7 +3,7 @@ import fotoSinFondo from '../img/Foto_Marlon.png';
 
 const Home = () => {
     return (
-        <div id='home' className='h-[100vh] flex justify-center'>
+        <div id='home' className=' h-[100vh] flex justify-center'>
             <section className=' mt-[50px] w-[1100px] flex justify-between items-center'>
                 <div className=' w-[550px]'>
                     <h1 className='font-[800] text-[60px]'>Hola, soy <span className='text-principal'>Marlon</span></h1>

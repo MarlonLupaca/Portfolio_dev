@@ -4,7 +4,7 @@ import React from 'react'
 
 const Cabecera = () => {
     return (
-        <header className=' w-full h-[50px] sticky top-0 left-0 bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px] flex justify-center z-40'>
+        <header className=' w-full h-[50px] fixed top-0 left-0 bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px] flex justify-center z-40'>
             <div className=' w-[1100px] flex justify-between items-center'>
                 <div className='text-[20px] font-[800]'>
                     Marlon <span className='text-principal'>Lupaca</span> 
