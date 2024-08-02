@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        'sm': '380px',
+      },
       colors:{
         'principal' : '#2cd7ff',
         'custom-rgba': 'rgba(44, 215, 255, 0.5)',
