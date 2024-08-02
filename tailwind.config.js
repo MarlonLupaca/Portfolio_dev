@@ -12,20 +12,31 @@ export default {
         'custom-grey-rgba': 'rgba(255, 255, 255, 0.1)',
       },
       animation:{
-        desplazamiento: "desplazamiento 7s infinite"
+        desplazamiento_destok: "desplazamiento_destok 7s infinite",
+        desplazamiento_movil: "desplazamiento_movil 7s infinite"
       },
-      keyframes:{
-        
-        desplazamiento: {
+      keyframes: {
+        desplazamiento_destok: {
           "0%": { "top": "0px" },
-          "25%": { "top": "0px"},
-          "26%": { "top": "-45px"},
-          "50%": { "top": "-45px"},
-          "51%": { "top": "-90px"},
-          "75%": { "top": "-90px"},
-          "76%": { "top": "-45px"},
-          "99%": { "top": "-45px"},
-          "100%": { "top": "0px"},
+          "25%": { "top": "0px" },
+          "26%": { "top": "-45px" },
+          "50%": { "top": "-45px" },
+          "51%": { "top": "-90px" },
+          "75%": { "top": "-90px" },
+          "76%": { "top": "-45px" },
+          "99%": { "top": "-45px" },
+          "100%": { "top": "0px" },
+        },
+        desplazamiento_movil: {
+          "0%": { "top": "0px" },
+          "25%": { "top": "0px" },
+          "26%": { "top": "-28px" },
+          "50%": { "top": "-28px" },
+          "51%": { "top": "-56px" },
+          "75%": { "top": "-56px" },
+          "76%": { "top": "-28px" },
+          "99%": { "top": "-28px" },
+          "100%": { "top": "0px" },
         }
       },
       boxShadow: {

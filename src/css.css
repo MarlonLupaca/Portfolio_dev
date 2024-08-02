@@ -10,3 +10,7 @@
     border-radius: 3px;
     background-color: #2cd7ff
 }
+
+html{
+    min-width: 390px;
+}
