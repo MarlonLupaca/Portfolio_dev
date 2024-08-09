@@ -19,17 +19,17 @@ const Cuerpo = () => {
                         <h3 className='font-[800] text-[15px] sm:text-[16px] mt-2 md:text-[35px]'>Tecnologías, <span className='text-purple-300'>herramientas y lenguajes</span></h3>
                         <div className='grid grid-cols-4 mt-5 gap-3 p-4 bg-custom-grey-rgba rounded-[15px] md:gap-5 md:p-8'>
                             
-                            <Tecnologia name="HTMl" name_url="src/img/html-5.png"/>
-                            <Tecnologia name="CSS" name_url="src/img/css-3.png"/>
-                            <Tecnologia name="JavaScript" name_url="src/img/js.png"/>
-                            <Tecnologia name="Java" name_url="src/img/java.png"/>
-                            <Tecnologia name="GitHub" name_url="src/img/github_logo.png"/>
-                            <Tecnologia name="Git" name_url="src/img/git_logo.png"/>
-                            <Tecnologia name="Tailwind" name_url="src/img/tailwind.png"/>
-                            <Tecnologia name="Sprint Boot" name_url="src/img/spring.png"/>
-                            <Tecnologia name="Vite" name_url="src/img/vite.png"/>
-                            <Tecnologia name="React" name_url="src/img/react_logo.png"/>
-                            <Tecnologia name="MySQL" name_url="src/img/MySQL-Logo.png"/>
+                            <Tecnologia name="HTMl" name_url="./img/html-5.png"/>
+                            <Tecnologia name="CSS" name_url="./img/css-3.png"/>
+                            <Tecnologia name="JavaScript" name_url="./img/js.png"/>
+                            <Tecnologia name="Java" name_url="./img/java.png"/>
+                            <Tecnologia name="GitHub" name_url="./img/github_logo.png"/>
+                            <Tecnologia name="Git" name_url="./img/git_logo.png"/>
+                            <Tecnologia name="Tailwind" name_url="./img/tailwind.png"/>
+                            <Tecnologia name="Sprint Boot" name_url="./img/spring.png"/>
+                            <Tecnologia name="Vite" name_url="./img/vite.png"/>
+                            <Tecnologia name="React" name_url="./img/react_logo.png"/>
+                            <Tecnologia name="MySQL" name_url="./img/MySQL-Logo.png"/>
                         </div>
                     </div>
                     
