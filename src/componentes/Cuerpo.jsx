@@ -8,7 +8,7 @@ const Cuerpo = () => {
     return (
         <div> 
             <Home/>
-            <div id='SobreMi' className=' h-[100vh] pt-[50px] p-1'>
+            <div id='SobreMi' className=' h-[100vh] p-1'>
                 <section className='h-full flex flex-col justify-center
                 gap-5 px-8 md:flex-row'>
                     <div className='flex flex-col items-center md:w-[50%] md:justify-center md:px-[40px]'>
