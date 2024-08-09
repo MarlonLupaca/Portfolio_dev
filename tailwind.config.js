@@ -12,7 +12,7 @@ export default {
       colors:{
         'principal' : '#2cd7ff',
         'custom-rgba': 'rgba(44, 215, 255, 0.5)',
-        'custom-grey-rgba': 'rgba(255, 255, 255, 0.1)',
+        'custom-grey-rgba': 'rgba(255, 255, 255, 0.09)',
       },
       animation:{
         desplazamiento_destok: "desplazamiento_destok 7s infinite",
@@ -43,7 +43,7 @@ export default {
         }
       },
       boxShadow: {
-        'custom-light': '0 2px 4px rgba(0, 0, 0, 0.1)',
+        'custom-white': '0 0 10px rgba(255, 255, 255, 0.5)',
         'custom-dark': '0 2px 4px rgba(0, 0, 0, 0.9)',
         'custom-blue': '0 4px 6px rgba(59, 130, 246, 0.5)',
         'custom-red': '0 4px 6px rgba(220, 38, 38, 0.5)', 
