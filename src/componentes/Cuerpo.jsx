@@ -19,17 +19,17 @@ const Cuerpo = () => {
                         <h3 className='font-[800] text-[15px] sm:text-[16px] mt-2 md:text-[35px]'>Tecnologías, <span className='text-purple-300'>herramientas y lenguajes</span></h3>
                         <div className='grid grid-cols-4 mt-5 gap-3 p-4 bg-custom-grey-rgba rounded-[15px] md:gap-5 md:p-8'>
                             
-                            <Tecnologia name="HTMl" name_url="html-5.png"/>
-                            <Tecnologia name="CSS" name_url="css-3.png"/>
-                            <Tecnologia name="JavaScript" name_url="js.png"/>
-                            <Tecnologia name="Java" name_url="java.png"/>
-                            <Tecnologia name="GitHub" name_url="github_logo.png"/>
-                            <Tecnologia name="Git" name_url="git_logo.png"/>
-                            <Tecnologia name="Tailwind" name_url="tailwind.png"/>
-                            <Tecnologia name="Sprint Boot" name_url="spring.png"/>
-                            <Tecnologia name="Vite" name_url="vite.png"/>
-                            <Tecnologia name="React" name_url="react_logo.png"/>
-                            <Tecnologia name="MySQL" name_url="MySQL-Logo.png"/>
+                            <Tecnologia name="HTMl" name_url="src/img/html-5.png"/>
+                            <Tecnologia name="CSS" name_url="src/img/css-3.png"/>
+                            <Tecnologia name="JavaScript" name_url="src/img/js.png"/>
+                            <Tecnologia name="Java" name_url="src/img/java.png"/>
+                            <Tecnologia name="GitHub" name_url="src/img/github_logo.png"/>
+                            <Tecnologia name="Git" name_url="src/img/git_logo.png"/>
+                            <Tecnologia name="Tailwind" name_url="src/img/tailwind.png"/>
+                            <Tecnologia name="Sprint Boot" name_url="src/img/spring.png"/>
+                            <Tecnologia name="Vite" name_url="src/img/vite.png"/>
+                            <Tecnologia name="React" name_url="src/img/react_logo.png"/>
+                            <Tecnologia name="MySQL" name_url="src/img/MySQL-Logo.png"/>
                         </div>
                     </div>
                     
