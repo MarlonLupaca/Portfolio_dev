@@ -10,3 +10,13 @@
     border-radius: 3px;
     background-color: #2cd7ff
 }
+.filtrado {
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0; /* Inicialmente transparente */
+    background: linear-gradient(transparent, #181818); /* El gradiente que quieres aplicar */
+}
+
+.filtrado:hover {
+    opacity: 1; /* Hace visible el gradiente */
+}
+

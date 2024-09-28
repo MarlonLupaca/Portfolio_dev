@@ -2,6 +2,8 @@ import React from 'react'
 import Home from './Home';
 
 import SobreMi from './SobreMi';
+import Proyecto from './Proyecto';
+import Contacto from './Contacto';
 
 
 
@@ -10,16 +12,17 @@ const Cuerpo = () => {
         <div> 
             <Home/>
             <SobreMi/>
-            <div id='Proyectos' className='border h-[100vh] pt-[50px]'>
-                <section className='secion' >
-                    <h2>Hola, Proyectos</h2>
+            <div id='Proyectos' className='border pt-[50px]'>
+                <section className='border flex flex-col items-center gap-2'>
+                    <h2 className='text-center text-[30px] font-[800] '>Proyectos <span className='text-principal'>propios</span></h2>
+                    <Proyecto/>
+                    <Proyecto/>
+                    <Proyecto/>
+                    
                 </section>
             </div>
-            <div id='Contacto' className='border h-[100vh] pt-[50px]'>
-                <section className='secion' >
-                    <h2>Hola, contacto</h2>
-                </section>
-            </div>
+            <Contacto/>
+            
         </div>
     )
 }
