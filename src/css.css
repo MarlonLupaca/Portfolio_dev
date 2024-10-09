@@ -1,7 +1,3 @@
-.scroll{
-    scrollbar-color: #2cd7ff #080808 !important;
-    
-}
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -12,11 +8,31 @@
 }
 .filtrado {
     transition: opacity 0.3s ease-in-out;
-    opacity: 0; /* Inicialmente transparente */
-    background: linear-gradient(transparent, #181818); /* El gradiente que quieres aplicar */
+    opacity: 1;
+    background: linear-gradient(transparent, #181818); 
 }
 
-.filtrado:hover {
-    opacity: 1; /* Hace visible el gradiente */
+.input{
+    outline: none;
+    border: 1px solid #080808;
+    border-radius: 8px;
+    opacity: 0.9;
+    width: 100%;
+    padding: 4px 12px 4px 12px;
+    color: #080808;
+}
+
+.contenedor_inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+@media (min-width:850px) {
+    .CustomGrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 38px;
+    }
 }
 

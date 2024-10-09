@@ -27,10 +27,13 @@ const Home = () => {
                                     GitHub
                                 </button>
                             </a>
-                            <button className='border border-gray-400 md:px-[20px] py-[5px] px-3 rounded-[8px] bg-custom-grey-rgba'>
-                                <i className="fa-brands fa-linkedin mr-2"></i>
-                                LinkedIn
-                            </button>
+                            <a href="https://linkedin.com/in/marlonlupaca" target='_blanck'>
+                                <button className='border border-gray-400 md:px-[20px] py-[5px] px-3 rounded-[8px] bg-custom-grey-rgba'>
+                                    <i className="fa-brands fa-linkedin mr-2"></i>
+                                    LinkedIn
+                                </button>
+                            </a>
+                            
                         </div>    
                     </div>
                     
