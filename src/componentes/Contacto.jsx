@@ -38,59 +38,27 @@ const Contacto = () => {
             <section className='section flex justify-center md:gap-[100px] items-center pt-4'>
                 <img src="img/contactame.png" alt="telefono" className='hidden md:block w-[300px]' />
                 <div>
-                    <h2 className='text-center text-[30px] font-[800] mb-4'>Contac<span className='text-principal'>tame</span></h2>
-                    <form 
-                        action="https://formsubmit.co/8791cd9e6c7d07e99441fdbb86485d6d" 
-                        method="POST" 
-                        className='bg-[rgba(255,255,255,0.1)] w-[330px] sm:w-[350px] mb-2 text-[16px] flex flex-col gap-4 px-6 py-6 rounded-lg'
-                        onSubmit={handleSubmit}
-                    >
-                        <div className='contenedor_inputs'>
-                            <label htmlFor="nombre" className='text-white'>Nombre</label>
-                            <input 
-                                placeholder='Federico' 
-                                className="input" 
-                                type="text" 
-                                id='nombre' 
-                                name="nombre"
-                            />
-                        </div>
-                        <div className='contenedor_inputs'>
-                            <label htmlFor="correo" className='text-white'>Correo</label>
-                            <input 
-                                placeholder="example@gmail.com" 
-                                className="input" 
-                                type="email" 
-                                id='correo' 
-                                name="correo"
-                            />
-                        </div>
-                        <div className='contenedor_inputs'>
-                            <label htmlFor="asunto" className='text-white'>Asunto</label>
-                            <textarea 
-                                placeholder="Deseo consultar..." 
-                                className="input max-h-[100px] h-[100px] min-h-[100px]" 
-                                name="asunto" 
-                                id="asunto" 
-                            ></textarea>
-                        </div>
-                        <div className='flex justify-end'>
-                            <button 
-                                type="submit" 
-                                className='bg-[#FF69B4] w-fit px-4 py-1 rounded-lg font-[700] text-white opacity-95'
-                                disabled={cargando} // Deshabilitar el botón mientras se carga
-                            >
-                                {cargando ? 'Enviando...' : 'Enviar'} {/* Cambiar texto del botón */}
-                            </button>
-                        </div>
+                    <h2 className='text-center text-[30px] font-[800] mb-2'>Contac<span className='text-principal'>tame</span></h2>
+                    <div className='relative flex justify-center'>
+                        <img 
+                            src="./img/wpp.png" 
+                            alt="contacto"
+                            className='w-[330px] rounded-lg' 
+                        />
+                        <a 
+                            href="https://wa.me/51921481607"
+                            className='absolute bottom-[15px]'
+                            target="_blank"
+                        >
+                            <div className=' w-[195px] h-[50px] rounded-full bg-[#04C163] flex justify-center items-center font-[700] text-[18px] gap-2 transition-all duration-100 hover:scale-[1.05] shadow-lg cursor-pointer'>
+                                <i className="fa-brands fa-whatsapp text-[25px]"></i>
+                                <span>
+                                    Empezar Chat
+                                </span>
+                            </div>
+                        </a>
                         
-                        <input type="hidden" name="_next" value="https://marlonlupaca.github.io/Portfolio_dev/"/>
-                        <input type="hidden" name="_captcha" value="false"/>
-                    </form>
-
-                    {/* Mostrar mensaje de éxito o error */}
-                    {status === 'success' && <p className='text-white mt-4 absolute w-[330px] sm:w-[350px] flex justify-center p-1 rounded-lg font-[800] bg-[#24B744]'>{mensaje}</p>}
-                    {status === 'error' && <p className='text-white mt-4 absolute w-[330px] sm:w-[350px] flex justify-center p-1 rounded-lg font-[800] bg-[#C72A2A]'>{mensaje}</p>}
+                    </div>
                 </div>
             </section>
         </div>
